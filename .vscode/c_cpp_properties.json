@@ -1,0 +1,49 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/Max/Desktop/stm32_dev/stm32f1_spl/include",
+                "c:/Users/Max/Desktop/stm32_dev/stm32f1_spl/src",
+                "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/cmsis/cores/stm32",
+                "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/cmsis/variants/stm32f1",
+                "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/spl/variants/stm32f1/inc",
+                "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/spl/variants/stm32f1/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Max/Desktop/stm32_dev/stm32f1_spl/include",
+                    "c:/Users/Max/Desktop/stm32_dev/stm32f1_spl/src",
+                    "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/cmsis/cores/stm32",
+                    "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/cmsis/variants/stm32f1",
+                    "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/spl/variants/stm32f1/inc",
+                    "C:/Users/Max/Desktop/stm32_dev/framework-spl/stm32/spl/variants/stm32f1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60106",
+                "STM32F1",
+                "STM32F103xB",
+                "F_CPU=72000000L",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_MD",
+                ""
+            ],
+            "compilerPath": "C:/Users/Max/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
