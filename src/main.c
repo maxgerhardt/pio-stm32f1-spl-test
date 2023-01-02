@@ -7,7 +7,7 @@
 #elif NUCLEO_F103RB
 	#include <stm32f10x_gpio.h>
 	#include <stm32f10x_rcc.h>
-    #define SystemCoreClock 8000000
+	#define SystemCoreClock 8000000
 	#define LEDPORT (GPIOB)
 	#define LEDPIN (GPIO_Pin_5)
 	#define ENABLE_GPIO_CLOCK (RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE))
@@ -66,7 +66,7 @@ int main(void)
 	ENABLE_GPIO_CLOCK;
 	/* use LED pin */
 	gpio.GPIO_Pin = LEDPIN;
-    gpio.GPIO_Speed = GPIO_Speed_2MHz;
+	gpio.GPIO_Speed = GPIO_Speed_2MHz;
 	/* set pin to push-pull output depending on the SPL variant */
 #if STM32F1 || NUCLEO_F103RB
 	gpio.GPIO_Mode = GPIO_Mode_Out_PP;
